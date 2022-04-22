@@ -5,7 +5,6 @@ const UploadAndDisplayImage = () => {
 
   return (
     <div>
-      <h1>Upload and Display Image usign React Hook's</h1>
       {selectedImage && (
         <div>
         <img alt="not fount" width={"250px"} src={URL.createObjectURL(selectedImage)} />
@@ -13,7 +12,6 @@ const UploadAndDisplayImage = () => {
         <button onClick={()=>setSelectedImage(null)}>Remove</button>
         </div>
       )}
-      <b
       <br /> 
       <input
         type="file"

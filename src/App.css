@@ -1,6 +1,16 @@
-.App {
-  text-align: center;
+.App {   
+  
+  margin: 0 10% ;
+  padding: 10px;
+  display: grid;
+  grid-template-areas: 'Header Header Header Header Header' 
+                        'Menu Content Content Content Search' 
+                        'Footer Footer Footer Footer Footer';
 }
+
+
+
+/* }
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +45,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
