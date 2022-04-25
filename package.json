@@ -1,7 +1,7 @@
 {
 
   "name": "my",
- 
+  "homepage": "https://eduhurlee.github.io/mynomsan/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
